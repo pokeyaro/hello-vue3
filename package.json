@@ -1,11 +1,19 @@
 {
-  "name": "vue3-demo-ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "hello-vue3",
+  "version": "1.0.0",
+  "description": "A Hello World sparrow project for Vue3",
+  "keywords": [
+    "vue3.3",
+    "vite4",
+    "typescript",
+    "es6"
+  ],
+  "author": "Pokeya",
+  "private": false,
   "type": "commonjs",
   "scripts": {
     "dev": "vite --config ./config/vite.config.dev.ts",
-    "build": "vue-tsc --noEmit && vite build --config ./config/vite.config.prod.ts",
+    "build": "vite build --config ./config/vite.config.prod.ts",
     "preview": "npm run build && vite preview --host"
   },
   "dependencies": {

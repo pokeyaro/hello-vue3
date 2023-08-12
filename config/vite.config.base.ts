@@ -15,7 +15,6 @@ export default defineConfig({
     transformHtmlPlugin({
       APP_TITLE: 'Hello World',
       META_DESCRIPTION: '一个基础的 Vue3 麻雀示例',
-      FAVICON_URL: '../src/assets/svg/awesome.svg',
     }),
   ],
 
